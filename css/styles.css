@@ -1,9 +1,19 @@
+#titlebar {
+  background-color: #dddddd;
+}
+
+#navbar {
+  background-color: #cc9998;
+}
+
 #column1 {
   float: left;
   width: 65%;
+  background-color: #9acc99;
 }
 
 #column2 {
   float: left;
   width: 35%;
+  background-color: #9999cd;
 }
