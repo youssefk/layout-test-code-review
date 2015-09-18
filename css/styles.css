@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 #titlebar, #navbar {
   margin: 0px;
   padding: 8px;
@@ -13,13 +17,13 @@
 
 #column1 {
   float: left;
-  width: 65%;
+  width: 70%;
   background-color: #9acc99;
 }
 
 #column2 {
   float: left;
-  width: 35%;
+  width: 30%;
   background-color: #9999cd;
 }
 
