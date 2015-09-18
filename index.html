@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Layout Test Code Review</title>
+  </head>
+  <body>
+    <h1>Simple 2 column CSS layout, final layout</h1>
+    <div id="navbar">
+      <a href="http://example.com/option1">Option 1</a>
+      <a href="http://example.com/option2">Option 2</a>
+      <a href="http://example.com/option3">Option 3</a>
+      <a href="http://example.com/option4">Option 4</a>
+      <a href="http://example.com/option5">Option 5</a>
+    </div>
+    <div class="column">
+      <h2>Column 1</h2>
+      <a href="https://goo.gl/maps/fel3W">208 SW 5th Ave #105 Portland, OR 97204</a>
+      <br>
+      <br>
+      <a href="index.html">Simple 2 column CSS layout</a>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="column">
+      <h2>Column 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+      <!--
+
+        Hey there, I'll be 100% honest here, I wanted to try out a neat plugin called Emmet, from http://emmet.io/ which can assist in the automation of redundant code (such as a large number of similar items formatted in a specific way.) Let's say a potential client needed 485 of these list items formatted in a specific way, but not just simple <li></li>, but rather an intricately formatted and unordered, numbered list which contains different links for each item. Would a programmer really want to type each unique list item out manually, let alone 485 of them? It's an extreme example, but a time saver when Emmet is learned to streamline a workflow, resulting in faster, more efficient programming delivering a finished product in a company and reducing turnaround time.
+
+        If I get marked down for this, I understand why and can accept that. This was not for the sake of any form of cheating, but rather learning more about developer toolkits and learning how to learn independently, finding solutions to problems. Who knows, perhaps you are learning something new from this too! This list series below is the only time I used Emmet, and was not used in any previous projects.
+
+
+        I researched Emmet syntax and created the following recipe myself:
+
+        ul>li*15>a[href='http://example.com/link$']{Link $}
+
+        Some of the syntax broken down:
+
+        > is for nesting a tag into another.
+        $ is for numbered items (correlated to the * number multiplier below).
+        * is the multiplier for how many of a tag you want created and putting the number right after it.
+        [] is the container for attributes you can apply, which can be anything. I used an href attribute in this case and numbered the end of the link urls to match the list item text.
+        {} is the container for plain text in your nested element(s).
+
+        Emmet code can be rendered by pressing tab at the end of it.
+
+        The result of my Emmet code is rendered below:
+
+      -->
+
+      <ul>
+        <li><a href="http://example.com/link1">Link 1</a></li>
+        <li><a href="http://example.com/link2">Link 2</a></li>
+        <li><a href="http://example.com/link3">Link 3</a></li>
+        <li><a href="http://example.com/link4">Link 4</a></li>
+        <li><a href="http://example.com/link5">Link 5</a></li>
+        <li><a href="http://example.com/link6">Link 6</a></li>
+        <li><a href="http://example.com/link7">Link 7</a></li>
+        <li><a href="http://example.com/link8">Link 8</a></li>
+        <li><a href="http://example.com/link9">Link 9</a></li>
+        <li><a href="http://example.com/link10">Link 10</a></li>
+        <li><a href="http://example.com/link11">Link 11</a></li>
+        <li><a href="http://example.com/link12">Link 12</a></li>
+        <li><a href="http://example.com/link13">Link 13</a></li>
+        <li><a href="http://example.com/link14">Link 14</a></li>
+        <li><a href="http://example.com/link15">Link 15</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
