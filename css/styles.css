@@ -1,4 +1,9 @@
-.column {
+#column1 {
   float: left;
-  width: 50%;
+  width: 65%;
+}
+
+#column2 {
+  float: left;
+  width: 35%;
 }
