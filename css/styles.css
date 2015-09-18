@@ -16,17 +16,44 @@ body {
 }
 
 #column1 {
-  float: left;
-  width: 70%;
   background-color: #9acc99;
 }
 
 #column2 {
-  float: left;
-  width: 30%;
   background-color: #9999cd;
 }
 
-.container {
-  padding: 0px 16px;
+@media (min-width: 768px) {
+
+  #column1 {
+    float: left;
+    width: 70%;
+  }
+
+  #column2 {
+    float: left;
+    width: 30%;
+  }
+
+ .container {
+    padding: 0px 16px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .container {
+    padding: 16px 16px 1px 16px;
+  }
+
+  .container h2 {
+    padding: 0px 0px 16px;
+  }
+
+}
+
+.columnheader {
+  margin: 0px;
+  padding: 16px 0px;
 }
