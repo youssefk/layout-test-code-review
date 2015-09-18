@@ -22,3 +22,7 @@
   width: 35%;
   background-color: #9999cd;
 }
+
+.container {
+  padding: 0px 16px;
+}
